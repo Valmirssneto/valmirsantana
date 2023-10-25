@@ -1,0 +1,15 @@
+.iframe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.iframe h1{
+    font-family: var(--bold);
+    font-size: 2rem;
+    color: var(--cor-branco);
+    text-align: center;
+}
