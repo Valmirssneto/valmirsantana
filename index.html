@@ -73,9 +73,38 @@
         <a href="#projetos">Projetos</button>
         <a href="#contato">Contato</button>
     </div>
-    <!-- Botão Destaque -->
-    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5583986155651&text=Ola%2C+tudo+bem%3F" target="_blank"
-      class="destaque">Quero Agora</a>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Pulsante</title>
+    <style>
+        .destaque {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5583986155651&text=Ola%2C+tudo+bem%3F" target="_blank" class="destaque">Quero Agora</a>
+</body>
+</html>
     <!-- Quadro -->
     <div class="quadro" name="quadroMais">
       <a href="./duvidas.html">
