@@ -17,8 +17,8 @@ footer h2 {
 }
 footer p {
   font-family: var(--bold);
-  /* font-size: 0.8rem; */
-  font-size: 18px;
+  font-size: 0.9rem;
+  /* font-size: 18px; */
   color: var(--cor-branco);
   opacity: 0.5;
 }
