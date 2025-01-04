@@ -29,7 +29,7 @@ nav .opcoes h2 {
 }
 nav .opcoes a {
   font-family: var(--bold);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--cor-branco);
   display: flex;
   align-items: center;
