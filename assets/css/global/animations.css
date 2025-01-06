@@ -7,15 +7,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Estilo base para a imagem */
-.logo-footer {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Efeito pulsante ao passar o mouse */
-.logo-footer:hover {
-  transform: scale(1.1); /* Aumenta a imagem em 10% */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); /* Adiciona brilho ao redor */
-}
