@@ -9,43 +9,23 @@ footer {
   padding: 20px 80px;
   gap: 10px;
 }
-
 footer h2 {
   font-family: var(--bold);
   font-size: 1rem;
   color: var(--cor-principal);
   letter-spacing: 10px;
 }
-
 footer p {
   font-family: var(--bold);
   font-size: 1rem;
+  /* font-size: 18px; */
   color: var(--cor-branco);
   opacity: 0.5;
 }
 
-.logo-footer {
+.logo-footer{
   width: 100px;
-  transition: transform 0.3s ease; /* Suaviza a transição */
 }
-
-/* Efeito ao passar o mouse */
-.logo-footer:hover {
-  animation: pulsar 1s infinite; /* Ativa a animação infinita */
-}
-
-/* Definição da animação pulsante */
-@keyframes pulsar {
-  0% {
-    transform: scale(1); /* Tamanho original */
-  }
-  50% {
-    transform: scale(1.1); /* Leve aumento */
-  }
-  100% {
-    transform: scale(1); /* Volta ao tamanho original */
-}
-
 /* Responsivo */
 @media screen and (max-width: 1000px) {
   footer {
@@ -53,11 +33,37 @@ footer p {
     text-align: center;
     padding: 50px 20px;
   }
-
   footer p {
     width: 100%;
     max-width: 250px;
     padding: 15px 0 0 0;
     line-height: 1.5;
+  }
+}
+
+
+
+/* Estilo base para a imagem */
+.logo-footer {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  transition: transform 0.3s ease;
+}
+
+/* Inicia a animação ao passar o mouse */
+.logo-footer:hover {
+  animation: pulsar 1s infinite; /* Aplica a animação */
+  transform: scale(1.1); /* Aumenta o tamanho */
+}
+
+/* Animação pulsante */
+@keyframes pulsar {
+  0% {
+    transform: scale(1.1); /* Ligeiramente maior */
+  }
+  50% {
+    transform: scale(1.15); /* Um pouco mais pulsante */
+  }
+  100% {
+    transform: scale(1.1); /* Retorna ao tamanho inicial do hover */
   }
 }
