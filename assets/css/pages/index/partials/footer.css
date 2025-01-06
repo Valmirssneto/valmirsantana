@@ -40,3 +40,30 @@ footer p {
     line-height: 1.5;
   }
 }
+
+
+
+/* Estilo base para a imagem */
+.logo-footer {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  transition: transform 0.3s ease;
+}
+
+/* Inicia a animação ao passar o mouse */
+.logo-footer:hover {
+  animation: pulsar 1s infinite; /* Aplica a animação */
+  transform: scale(1.1); /* Aumenta o tamanho */
+}
+
+/* Animação pulsante */
+@keyframes pulsar {
+  0% {
+    transform: scale(1.1); /* Ligeiramente maior */
+  }
+  50% {
+    transform: scale(1.15); /* Um pouco mais pulsante */
+  }
+  100% {
+    transform: scale(1.1); /* Retorna ao tamanho inicial do hover */
+  }
+}
